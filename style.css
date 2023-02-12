@@ -5,3 +5,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* FREE SHIPPING ALERT BANNER */
+.alert {
+    background: black;
+    color: white;
+    min-width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
