@@ -47,10 +47,10 @@ async function getData() {
         featureFourTitle.textContent = data[3].title
 
         // --prices
-        featureOnePrice.textContent = '$' + data[0].price
-        featureTwoPrice.textContent = '$' + data[1].price
-        featureThreePrice.textContent = '$' + data[2].price
-        featureFourPrice.textContent = '$' + data[3].price
+        featureOnePrice.textContent = '$' + data[0].price.toFixed(2)
+        featureTwoPrice.textContent = '$' + data[1].price.toFixed(2)
+        featureThreePrice.textContent = '$' + data[2].price.toFixed(2)
+        featureFourPrice.textContent = '$' + data[3].price.toFixed(2)
     } catch (error) {
       console.error(error);
     }
