@@ -4,6 +4,7 @@ This is a responsive ecommerce store site made with html and css. The user will 
 
 
 <!-- CHALLENGES -->
+<h1>CHALLENGES</h1>
 --HAVE MULTIPLE PAGES FOR ITEMS
 --DISPLAY ITEM THUMBNAIL OF PHOTO AND PRICE
 --WHEN ITEM IS CLICKED, OPEN MODAL SHOWING ITEM DESCRIPTION
@@ -13,6 +14,7 @@ This is a responsive ecommerce store site made with html and css. The user will 
 
 
 <!-- LESSONS LEARNED -->
+<h1>LESSONS LEARNED</h1>
 -- NEED TO WORK ON CSS AND RESPONSIVENESS
 --
 
@@ -21,4 +23,5 @@ This is a responsive ecommerce store site made with html and css. The user will 
 
 
 <!-- UPDATES -->
+<h1>UPDATES</h1>
 02-22-2023 --started api incorporation
