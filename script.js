@@ -1,11 +1,12 @@
 // == FETCH API == //
-const url = 'https://fakestoreapi.com/products/'
-fetch(url)
-.then(response => response.json())
-.then (data => {
-    console.log(data)
-})
-.catch(error => {
-    console.log(`error ${error}`)
-})
+async function getData() {
+    try {
+      const response = await fetch('https://fakestoreapi.com/products/');
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error(error);
+    }
+  }
 
+  getData()
