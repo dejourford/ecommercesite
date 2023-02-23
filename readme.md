@@ -14,3 +14,10 @@ This is a responsive ecommerce store site made with html and css. The user will 
 <!-- LESSONS LEARNED -->
 -- NEED TO WORK ON CSS AND RESPONSIVENESS
 --
+
+
+
+
+
+<!-- UPDATES -->
+02-22-2023 --started api incorporation
