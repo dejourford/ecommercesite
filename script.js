@@ -1,6 +1,7 @@
 // == DEFINE VARIABLES == //
-const featureWrapper = document.querySelector('.featureWrapper')
 
+const featureWrapper = document.querySelector('.featureWrapper')
+const features = document.querySelector('.features')
 
 
 // when these are clicked, details modal will show
@@ -58,35 +59,10 @@ async function getData() {
         featureFourPrice.textContent = '$' + data[3].price.toFixed(2)
     
     
-        // --MENS PAGE
-        for (let i = 0; i < data.length - 1; i++){
-            const div = document.createElement('div')
-            div.setAttribute('class', 'feature')
-            div.setAttribute('id', 'feature-one')
-            featureWrapper.appendChild(div)
-
-            const img = document.createElement('img')
-            img.setAttribute('class', 'example')
-            img.setAttribute('id', 'feature-one-image')
-            img.src = data[6].image
-            featureWrapper.appendChild(img)
-
-            var span = document.createElement('span')
-            span.setAttribute('class', 'itemTitle')
-            span.setAttribute('id', 'feature-one-title')
-            featureWrapper.appendChild(span)
-
-            var span = document.createElement('span')
-            span.setAttribute('class', 'itemPrice')
-            span.setAttribute('id', 'feature-one-price')
-            featureWrapper.appendChild(span)
-
-        }
-    
-    
-    
-    } catch (error) {
-      console.error(error);
+       
+    } 
+    catch (error) {
+    console.error(error);
     }
   }
 getData()
