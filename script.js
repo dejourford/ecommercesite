@@ -1,3 +1,14 @@
+// == DEFINE VARIABLES == //
+const featureOne = document.getElementById('feature-one')
+const featureTwo = document.getElementById('feature-two')
+const featureThree = document.getElementById('feature-three')
+const featureFour = document.getElementById('feature-four')
+
+
+
+
+
+
 // == FETCH API == //
 async function getData() {
     try {
@@ -8,5 +19,5 @@ async function getData() {
       console.error(error);
     }
   }
+getData()
 
-  getData()
