@@ -22,7 +22,8 @@ This is a responsive ecommerce store site made with html and css. The user will 
 <h1>LESSONS LEARNED</h1>
 -- NEED TO WORK ON CSS AND RESPONSIVENESS
 <br>
---
+--NEED TO FIGURE OUT HOW RANDOM ITEMS FROM API CAN BE
+MANIPULATED
 
 
 
