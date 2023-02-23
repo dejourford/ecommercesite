@@ -23,6 +23,9 @@ async function getData() {
       const data = await response.json();
       console.log(data);
         featureOneImg.src = data[0].image
+        featureTwoImg.src = data[1].image
+        featureThreeImg.src = data[2].image
+        featureFourImg.src = data[3].image
     } catch (error) {
       console.error(error);
     }
