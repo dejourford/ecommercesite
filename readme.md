@@ -26,6 +26,8 @@ This is a responsive ecommerce store site made with html and css. The user will 
 MANIPULATED
 <br>
 --some api's don't have compressed images which causes site to load images slowly
+<br>
+--need to refactor code to somehow get one js file for all pages (if possible)
 
 
 
