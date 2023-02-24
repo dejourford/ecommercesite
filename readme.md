@@ -24,6 +24,8 @@ This is a responsive ecommerce store site made with html and css. The user will 
 <br>
 --NEED TO FIGURE OUT HOW RANDOM ITEMS FROM API CAN BE
 MANIPULATED
+<br>
+--some api's don't have compressed images which causes site to load images slowly
 
 
 
