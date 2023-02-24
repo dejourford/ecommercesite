@@ -35,3 +35,4 @@ MANIPULATED
 <h1>UPDATES</h1>
 02-22-2023 --started api incorporation
 02-23-2022 --finished api incorporation across entire webpage. need to resize images across all viewports.
+    22:05--finished adding medie queries to make website responsive
